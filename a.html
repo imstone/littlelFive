@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<style type="text/css">
+ .d,.a{
+ 	width: 600px;
+ 	height: 600px;
+ 	border:1px solid red;
+ 	float: left;
+
+ }
+ .c{
+width: 300px;
+height: 300px;
+margin: 100px 0 0 100px;
+border:1px solid black;
+ }
+
+div.e{
+width: 200px;
+height: 200px;
+margin: 100px 0 0 100px;
+border:3px solid black;
+ }
+	</style>
+
+
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.0/jquery.js"></script>
+
+	</head>
+	<body>
+		<div class="a" >
+		<div class="c" ></div></div>
+		<div class="d"></div>
+
+	</body>
+	<script type="text/javascript">
+	d=['!','@','#','$','%','^','&','*','(',')']
+
+s= d[parseInt(Math.random(9)*10)]
+var html='';
+for(i=0;i<100;i++){
+	console.log(html)
+	if(i%9==0){
+			html+='<span>'+i+'</span><span>'+s+'</span><br>--'
+	}else{
+			html+='<span>'+i+'</span><span>'+d[parseInt(Math.random(9)*10)]+'</span>--'
+	}
+
+}
+$(".d").html(html)
+
+
+$(document).on('click','.c',function(){
+	$(".c").html(s)
+})
+</script>
+</html>

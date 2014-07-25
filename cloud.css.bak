@@ -1,0 +1,101 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+font-family:"Microsoft Yahei";
+}
+div#header{
+height:70px;
+background-color:#33597d;
+
+}
+.center{
+margin:0 auto; 
+width:980px;
+}
+div#leftdiv{
+background:url(images/baidu.png) no-repeat;
+width:240px;
+height:70px;
+float:left;
+}
+div#rightwww{
+width:126px;
+font-size:14px;
+color:#a9cfef;
+float:right;
+margin-top:30px;
+}
+div#zhuye{
+background-position:-90px 0;
+height:30px;
+width:30px;
+float:left;
+}
+
+div#rightinfo{
+width:126px;
+font-size:14px;
+color:#a9cfef;
+float:right;
+margin-top:30px;
+}
+div#info{
+background-position:-120px 0;
+height:30px;
+width:30px;
+float:left;
+}
+div#menu{
+background-color:#fafafa;
+height:36px;
+}
+div#myweb{
+height:36px;
+width:96px;
+float:left;
+margin-top:8px;
+}
+div#mywebpic{
+background-position:-90px 0;
+height:30px;
+width:30px;
+float:left;
+}
+div#mywebfont{
+font-size:13px;
+color:#335a7c;
+}
+
+div#yuming{
+font-size:13px;
+color:#999999;
+float:left;
+margin-top:8px; 
+}
+div#dayuhao{
+background-position:-30px -60;
+width:30px;
+height:36px;
+float:left;
+
+}
+div#step{
+background-color:#f5f5f5;
+height:76px;
+margin-top:24px;
+border:1px solid #e9eaee;
+margin-left:90px;
+}
+.liangse{
+background-position:0 -120px;
+width:42px;
+height:42px;
+margin-left:16px;;
+}
+
+
+.bg{
+background:url(images/bg.png) no-repeat;
+}

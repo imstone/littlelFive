@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>0102-首页-banner 3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" type="text/css" href="index.cs">
+</head>
+<body>
+	<div id="header">
+
+	</div>
+	<div id="search"></div>
+<div id="body"></div>
+
+</body>
+
+</html>
