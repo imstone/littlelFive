@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>0102-首页-banner 3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+div#abc{
+ margin: 0 auto;
+ width:640px;
+}
+	div#header{
+   
+	background: url(images/header.png);
+	width: 640px;
+	height: 430px;
+}
+div#bcd{
+
+margin-top:20px;
+}
+div#search{
+float:left;
+margin-left:38px;
+
+width:155px;
+height:46px;
+background:url(images/logo.png) no-repeat;
+}
+#number{
+margin-left:25px;
+width:420px;
+height:46px;
+background:url(images/search.png) no-repeat -3px;
+border:1px solid #eee;
+font-size:28px;
+
+}
+#menu{
+
+list-style-type:none;
+font-size:30px;
+color:#888;
+
+}
+#menu li
+{
+float:left;
+width:100px;
+border-bottom:2px solid #eee;
+
+}
+
+
+#menu li a:hover{
+
+border-bottom:4px solid #ff8400;
+color: #ff8400;
+cursor:pointer;
+}
+#menu .active{
+font-size:30px;
+color:#ff8400;
+
+}
+div #pic li{
+width:200px;
+float:left;
+font-size:32px;
+padding-top:200px;
+text-align:center;
+}
+li.yyt{
+background:url(images/yyt.png) no-repeat;
+}
+li.g{
+background:url(images/4g.png) no-repeat;
+}
+li.tv{
+background:url(images/tv.png) no-repeat;
+}
+li.gz{
+background:url(images/gz.png) no-repeat;
+}
+li.my{
+background:url(images/my.png) no-repeat;
+}
+li.more{
+background:url(images/more.png) no-repeat;
+}
+
+</style>
+</head>
+<body>
+<div id="abc">
+	<div id="header">
+
+	</div>
+    <div id="bcd">
+	<div id="search"></div>
+    
+<input type="text" id="number" ></input>    </div>
+<div id="body">
+<ul id="menu">
+<li class="active"><a>选号</a></li>
+<li><a >购机</a></li>
+<li><a>充值</a></li>
+<li><a>查询</a></li>
+<li><a>宽带</a></li>
+<li><a>维修</a></li>
+</ul>
+</div>
+<div id="pic">
+<ul>
+<li class="tv"><a>手机宽带电视</a></li>
+<li class="yyt"><a>营业厅</a></li>
+<li class="g"><a>天翼4G</a></li>
+<li class="gz"><a>故障攻略</a></li>
+<li class="my"><a>国际漫游</a></li>
+<li class="more"><a>更多</a></li>
+
+</ul>
+
+</div>
+</div>
+</body>
+
+</html>
